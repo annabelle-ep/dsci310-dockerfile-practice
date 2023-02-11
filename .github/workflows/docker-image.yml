@@ -24,4 +24,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         
     - name: Docker push
-      run: docker push aepurnomo/dockerfilepractice:latest
+      run: docker push aepurnomo/dockerfile-practice:latest
